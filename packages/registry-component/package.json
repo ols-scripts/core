@@ -88,5 +88,8 @@
   },
   "maintainers": [
     "WisestCoder"
-  ]
+  ],
+	"publishConfig": {
+		"access": "public"
+	}
 }
