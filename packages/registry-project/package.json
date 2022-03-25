@@ -1,6 +1,6 @@
 {
   "name": "@ols-scripts/registry-project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ols脚手架",
   "main": "dist/index.js",
   "bin": {
@@ -23,9 +23,9 @@
   "author": "WisestCoder",
   "license": "MIT",
   "dependencies": {
+    "@ols-scripts/config": "^0.0.2",
+    "@ols-scripts/util": "^0.0.2",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
-    "@ols-scripts/config": "^0.0.1",
-    "@ols-scripts/util": "^0.0.1",
     "autoprefixer": "^10.4.0",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
@@ -59,7 +59,7 @@
   "maintainers": [
     "WisestCoder"
   ],
-	"publishConfig": {
-		"access": "public"
-	}
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@ols-scripts/registry-default",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ols脚手架",
   "main": "dist/index.js",
   "bin": {
@@ -23,9 +23,9 @@
   "author": "WisestCoder",
   "license": "MIT",
   "dependencies": {
-    "@ols-scripts/config": "^0.0.1",
-    "@ols-scripts/plugin": "^0.0.1",
-    "@ols-scripts/util": "^0.0.1",
+    "@ols-scripts/config": "^0.0.2",
+    "@ols-scripts/plugin": "^0.0.2",
+    "@ols-scripts/util": "^0.0.2",
     "axios": "^0.26.1",
     "download": "^8.0.0",
     "ejs": "^3.1.6",
@@ -43,7 +43,7 @@
   "maintainers": [
     "WisestCoder"
   ],
-	"publishConfig": {
-		"access": "public"
-	}
+  "publishConfig": {
+    "access": "public"
+  }
 }

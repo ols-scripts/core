@@ -1,6 +1,6 @@
 {
   "name": "@ols-scripts/registry-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ols脚手架",
   "main": "dist/index.js",
   "bin": {
@@ -28,6 +28,9 @@
     "@babel/plugin-transform-runtime": "^7.15.0",
     "@babel/register": "^7.15.3",
     "@babel/standalone": "^7.15.3",
+    "@ols-scripts/config": "^0.0.2",
+    "@ols-scripts/plugin": "^0.0.2",
+    "@ols-scripts/util": "^0.0.2",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^20.0.0",
@@ -37,9 +40,6 @@
     "@rollup/plugin-replace": "^3.0.0",
     "@rollup/plugin-url": "^6.1.0",
     "@svgr/rollup": "^5.5.0",
-    "@ols-scripts/config": "^0.0.1",
-    "@ols-scripts/plugin": "^0.0.1",
-    "@ols-scripts/util": "^0.0.1",
     "acorn": "^8.4.1",
     "acorn-jsx": "^5.3.2",
     "autoprefixer": "^8.0.0",
@@ -89,7 +89,7 @@
   "maintainers": [
     "WisestCoder"
   ],
-	"publishConfig": {
-		"access": "public"
-	}
+  "publishConfig": {
+    "access": "public"
+  }
 }

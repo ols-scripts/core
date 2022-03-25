@@ -1,6 +1,6 @@
 {
   "name": "@ols-scripts/component-theme-one",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ols组件的主题",
   "author": "WisestCoder",
   "license": "ISC",
@@ -33,7 +33,7 @@
     "react-dom": ">=16.9.0"
   },
   "dependencies": {
-    "@ols-scripts/cli": "^0.0.1",
+    "@ols-scripts/cli": "^0.0.2",
     "antd": "^4.16.5",
     "prism-react-renderer": "^1.2.1",
     "react-loadable": "^5.5.0",

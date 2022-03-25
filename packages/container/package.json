@@ -1,6 +1,6 @@
 {
   "name": "@ols-scripts/container",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ols脚手架",
   "main": "dist/index.js",
   "bin": {
@@ -23,11 +23,11 @@
   "author": "WisestCoder",
   "license": "MIT",
   "dependencies": {
-    "@ols-scripts/registry-component": "^0.0.1",
-    "@ols-scripts/registry-default": "^0.0.1",
-    "@ols-scripts/registry-node": "^0.0.1",
-    "@ols-scripts/registry-project": "^0.0.1",
-    "@ols-scripts/util": "^0.0.1"
+    "@ols-scripts/registry-component": "^0.0.2",
+    "@ols-scripts/registry-default": "^0.0.2",
+    "@ols-scripts/registry-node": "^0.0.2",
+    "@ols-scripts/registry-project": "^0.0.2",
+    "@ols-scripts/util": "^0.0.2"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.1.1",
@@ -37,7 +37,7 @@
   "maintainers": [
     "WisestCoder"
   ],
-	"publishConfig": {
-		"access": "public"
-	}
+  "publishConfig": {
+    "access": "public"
+  }
 }

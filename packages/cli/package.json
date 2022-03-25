@@ -1,6 +1,6 @@
 {
   "name": "@ols-scripts/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ols脚手架",
   "main": "dist/index.js",
   "bin": {
@@ -23,8 +23,8 @@
   "author": "WisestCoder",
   "license": "MIT",
   "dependencies": {
-    "@ols-scripts/core": "^0.0.1",
-    "@ols-scripts/util": "^0.0.1",
+    "@ols-scripts/core": "^0.0.2",
+    "@ols-scripts/util": "^0.0.2",
     "mkdirp": "^1.0.4"
   },
   "devDependencies": {
@@ -41,7 +41,7 @@
   "maintainers": [
     "WisestCoder"
   ],
-	"publishConfig": {
-		"access": "public"
-	}
+  "publishConfig": {
+    "access": "public"
+  }
 }

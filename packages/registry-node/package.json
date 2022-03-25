@@ -1,6 +1,6 @@
 {
   "name": "@ols-scripts/registry-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ols脚手架",
   "main": "dist/index.js",
   "bin": {
@@ -23,8 +23,8 @@
   "author": "WisestCoder",
   "license": "MIT",
   "dependencies": {
-    "@ols-scripts/config": "^0.0.1",
-    "@ols-scripts/util": "^0.0.1",
+    "@ols-scripts/config": "^0.0.2",
+    "@ols-scripts/util": "^0.0.2",
     "ejs": "^3.1.6",
     "glob": "^7.2.0",
     "inquirer": "^8.2.0",
@@ -40,7 +40,7 @@
   "maintainers": [
     "WisestCoder"
   ],
-	"publishConfig": {
-		"access": "public"
-	}
+  "publishConfig": {
+    "access": "public"
+  }
 }
