@@ -1,0 +1,30 @@
+.ant-layout-sider {
+  user-select: none;
+}
+
+.ant-layout-sider-light .ant-layout-sider-trigger {
+  border-top: 1px solid rgba(66, 65, 65, 0.1);
+}
+
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .iconfont + span {
+  display: inline-block;
+  max-width: 0;
+  opacity: 0;
+}
+
+.ols-theme-one-sider-wrap {
+  .ant-layout-sider-children {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    height: 100%;
+    margin-top: -0.1px;
+    padding-top: 0.1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .ant-layout-sider-trigger {
+    bottom: 8px;
+  }
+}

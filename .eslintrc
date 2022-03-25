@@ -1,0 +1,34 @@
+{
+  "extends": ["./node_modules/@ols-scripts/eslint-config/base", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "globals": {
+    "document": true,
+    "localStorage": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": 1,
+    "@typescript-eslint/prefer-for-of": 1,
+    "react/jsx-curly-newline": 0,
+		"global-require": 0,
+		"no-control-regex": 0,
+		"no-console": 0,
+		"import/no-dynamic-require": 0,
+		"class-methods-use-this": 0,
+		"no-param-reassign": 0,
+		"no-case-declarations": 0,
+		"no-restricted-syntax": 0,
+		"prefer-const": 0,
+		"no-nested-ternary": 0,
+		"guard-for-in": 0,
+		"no-await-in-loop": 0
+  },
+  "ignorePatterns": ["node_modules", "**/dist/*.*"]
+}

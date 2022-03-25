@@ -1,0 +1,40 @@
+{
+  "name": "@ols-scripts/container",
+  "version": "0.0.1",
+  "description": "ols脚手架",
+  "main": "dist/index.js",
+  "bin": {
+    "ols": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "rimraf ./dist && tsc --watch",
+    "build": "rimraf ./dist && tsc -d",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "lint:script": "eslint --ext .ts,.js --fix ./src",
+    "prepublishOnly": "yarn build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ts",
+    "node"
+  ],
+  "author": "WisestCoder",
+  "license": "MIT",
+  "dependencies": {
+    "@ols-scripts/registry-component": "^0.0.1",
+    "@ols-scripts/registry-default": "^0.0.1",
+    "@ols-scripts/registry-node": "^0.0.1",
+    "@ols-scripts/registry-project": "^0.0.1",
+    "@ols-scripts/util": "^0.0.1"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  },
+  "maintainers": [
+    "WisestCoder"
+  ]
+}

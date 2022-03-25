@@ -1,0 +1,13 @@
+/* eslint-disable */
+
+export const routes = [
+<% demos.forEach(function(item){%>  {
+    link: '/<%=item.route %>',
+    component: require('<%=item.filePath %>'),
+    title: '<%=item.name %>',
+  },<% }) %>
+]
+
+export const scopes = {<% scopes.forEach(function(item){%>
+  '<%=item.dependence %>': require('<%=item.require %>'),<% }) %>
+}

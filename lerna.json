@@ -1,0 +1,16 @@
+{
+	"command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "publish": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "npmClient": "yarn",
+  "version": "independent",
+  "useWorkspaces": true
+}
