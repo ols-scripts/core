@@ -1,5 +1,5 @@
 import logger from '@ols-scripts/util/logger'
-import webpackConfig from './webpack/config'
+import ConfigAPI from './Config'
 
 import dev from './commands/dev'
 import build from './commands/build'
@@ -13,7 +13,7 @@ module.exports = {
       ctx.eventHooks = {}
       ctx.webpackChainFns = []
       ctx.webpackConfigFns = []
-      ctx.webpackConfig = webpackConfig(ctx)
+      ctx.config = new ConfigAPI(ctx)
 
       if (ctx.userConfig.chainWebpack) {
         ctx.webpackChainFns.push(ctx.userConfig.chainWebpack)
@@ -21,6 +21,8 @@ module.exports = {
       if (ctx.userConfig.configureWebpack) {
         ctx.webpackConfigFns.push(ctx.userConfig.configureWebpack)
       }
+
+      ctx.webpackConfig = await ctx.config.getWebpackConfig()
 
       ctx.applyHook = async function applyHook(key, opts = {}) {
         const hooks = ctx.eventHooks[key] || []
