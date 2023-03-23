@@ -17,9 +17,9 @@ ols是一款成熟的脚手架。
 ### 安装
 
 ```bash
-yarn global add @ols-scripts/ols
+yarn global add @ols-scripts/cli
 # 或者
-npm install -g @ols-scripts/ols
+npm install -g @ols-scripts/cli
 ```
 
 ### 创建项目
